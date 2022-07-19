@@ -1,27 +1,25 @@
-# rogainig_manager
-rogaining system
+やり方
 
-ローカル環境の構築
 
-1.Homebrewのインストール
+①Homebrewのインストール
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 
-2.PHPのインストール
+②PHPのインストール
 brew install php@7.4
 
 
-3.Composerのインストール
+③Composerのインストール
 $ brew install composer
 
-4.Laravelのインストール
+④Laravelのインストール
 $ composer create-project "laravel/laravel=8.*" rogaining
 
 
-5.サーバ起動
+⑤サーバ起動
 $ php artisan serve
 
-5.ローカル環境で確認
+⑤ローカル環境で確認
 http://localhost:8000/welcome
 
 
@@ -63,10 +61,3 @@ DB_PASSWORD=secret
 $ php artisan config:cache
 $ php artisan migrate
 
-
-
-
-laravel　参考サイト
-導入手順
-
-https://techacademy.jp/magazine/11521
