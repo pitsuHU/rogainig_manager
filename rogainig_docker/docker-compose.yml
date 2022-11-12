@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: ./docker/app/Dockerfile
     volumes:
-      - ./src/rogaining/:/app
+      - ./src/:/app
 
   web: 
     build:
